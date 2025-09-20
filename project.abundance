@@ -41,6 +41,25 @@
             ],
             "fontFamily": "AGUAFINA",
             "selectedFontIndex": 5
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.20606060606060608,
+            "y": 0.6828571428571429,
+            "uniqueID": "597acadf-4fac-40ef-b13a-4f339e4bd7e0",
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 7,
+                    "currentEquation": "7"
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": "10"
+                }
+            ]
         }
     ],
     "allConnectors": [

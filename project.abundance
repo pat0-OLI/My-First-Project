@@ -41,47 +41,6 @@
             ],
             "fontFamily": "AGUAFINA",
             "selectedFontIndex": 5
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.3501683501683502,
-            "y": 0.8171428571428572,
-            "uniqueID": "d6b00fc8-0ec7-42a8-b2d9-1acc312d62ad",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Tool Size",
-                    "ioValue": 0.25,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 2,
-                    "currentEquation": "2"
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 79,
-                    "currentEquation": "79"
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "My-First-Project",
-                    "currentEquation": null
-                }
-            ],
-            "partName": "My-First-Project",
-            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -90,12 +49,6 @@
             "ap2Name": "number or geometry",
             "ap1ID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
             "ap2ID": 1743640240915
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
-            "ap2ID": "d6b00fc8-0ec7-42a8-b2d9-1acc312d62ad"
         }
     ],
     "unitsKey": "Inches",

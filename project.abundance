@@ -16,7 +16,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1743640338067,
+                    "ioValue": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
                     "currentEquation": null
                 }
             ]
@@ -30,262 +30,43 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 18,
+                    "currentEquation": "18"
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10,
-                    "currentEquation": null
+                    "ioValue": 12,
+                    "currentEquation": "12"
                 }
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.11515151515151516,
-            "y": 0.7371428571428572,
-            "uniqueID": 1743640257226,
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.12188552188552189,
+            "y": 0.74,
+            "uniqueID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
             "ioValues": [
                 {
-                    "name": "diameter",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.337220602526725,
-            "y": 0.7951070336391437,
-            "uniqueID": 1743640262696,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1743640257226,
-                    "currentEquation": null
+                    "name": "Font Size",
+                    "ioValue": 8,
+                    "currentEquation": "8"
                 },
                 {
-                    "name": "xDist",
-                    "ioValue": 5,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Fusion",
-            "name": "Fusion",
-            "x": 0.3129251700680272,
-            "y": 0.44648318042813456,
-            "uniqueID": 1743640268026,
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": 1743640262696
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": 1743640244069
-                }
-            ],
-            "unionType": "Fusion"
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4430976430976431,
-            "y": 0.33999999999999997,
-            "uniqueID": 1743640281617,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1743640268026,
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.5212121212121212,
-            "y": 0.7742857142857142,
-            "uniqueID": 1743640295397,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1743640281617,
-                    "currentEquation": null
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 15,
-                    "currentEquation": "15"
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 10,
-                    "currentEquation": "10"
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.6861952861952862,
-            "y": 0.72,
-            "uniqueID": 1743640319231,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": 1743640281617,
-                    "currentEquation": null
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": 1743640295397,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Intersection",
-            "name": "Intersection",
-            "x": 0.6783284742468416,
-            "y": 0.40672782874617736,
-            "uniqueID": 1743640338067,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": 1743640295397,
-                    "currentEquation": null
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": 1743640281617,
-                    "currentEquation": null
-                }
-            ]
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.8231292517006803,
-            "y": 0.26299694189602446,
-            "uniqueID": 1743640358052,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1743640338067,
-                    "currentEquation": null
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "SVG",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "My-First-Project",
+                    "name": "Text",
+                    "ioValue": "103079",
                     "currentEquation": null
                 }
             ],
-            "type": null,
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "My-First-Project"
+            "fontFamily": "AGUAFINA",
+            "selectedFontIndex": 5
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 2",
-            "ap1ID": 1743640244069,
-            "ap2ID": 1743640268026
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": 1743640257226,
-            "ap2ID": 1743640262696
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 1",
-            "ap1ID": 1743640262696,
-            "ap2ID": 1743640268026
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": 1743640268026,
-            "ap2ID": 1743640281617
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": 1743640281617,
-            "ap2ID": 1743640295397
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap1ID": 1743640281617,
-            "ap2ID": 1743640319231
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap1ID": 1743640281617,
-            "ap2ID": 1743640338067
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap1ID": 1743640295397,
-            "ap2ID": 1743640319231
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap1ID": 1743640295397,
-            "ap2ID": 1743640338067
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": 1743640338067,
-            "ap2ID": 1743640358052
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap1ID": 1743640338067,
+            "ap1ID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
             "ap2ID": 1743640240915
         }
     ],

@@ -22,35 +22,16 @@
             ]
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.12794612794612795,
-            "y": 0.43999999999999995,
-            "uniqueID": 1743640244069,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 18,
-                    "currentEquation": "18"
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 12,
-                    "currentEquation": "12"
-                }
-            ]
-        },
-        {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.12188552188552189,
-            "y": 0.74,
+            "x": 0.14343434343434344,
+            "y": 0.5171428571428571,
             "uniqueID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 8,
-                    "currentEquation": "8"
+                    "ioValue": 12,
+                    "currentEquation": "12"
                 },
                 {
                     "name": "Text",
@@ -60,6 +41,47 @@
             ],
             "fontFamily": "AGUAFINA",
             "selectedFontIndex": 5
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.3501683501683502,
+            "y": 0.8171428571428572,
+            "uniqueID": "d6b00fc8-0ec7-42a8-b2d9-1acc312d62ad",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 2,
+                    "currentEquation": "2"
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 79,
+                    "currentEquation": "79"
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "My-First-Project",
+                    "currentEquation": null
+                }
+            ],
+            "partName": "My-First-Project",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -68,6 +90,12 @@
             "ap2Name": "number or geometry",
             "ap1ID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
             "ap2ID": 1743640240915
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "543931d3-70c5-41cc-a756-4dbb22bf3b28",
+            "ap2ID": "d6b00fc8-0ec7-42a8-b2d9-1acc312d62ad"
         }
     ],
     "unitsKey": "Inches",
